@@ -5,9 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'ANJAC',
    datas:[
-    {Name:'Sivagurunathan M',class:'II-MCA',rollno:'21PA33'},
-    {Name:'Kaniraj',class:'II-MCA',rollno:'21PA20'},
-    {Name:'Nagakarthik',class:'II-MCA',rollno:'21PA29'}
+    {Name:'HSC',class:'G.S.Hindu.Her.Sec School',rollno:'87'},
+    {Name:'BCA',class:'Ayya Nadar Janaki Ammal College',rollno:'85'},
+    {Name:'MCA',class:'Ayya Nadar Janaki Ammal College',rollno:'82'}
     ]});
 });
 // details:['Name','class','rollno'],
